@@ -46,3 +46,12 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
+# ✅ Bar Chart
+plt.figure(figsize=(8, 5))
+sns.barplot(data=df, x='species', y='petal length (cm)', estimator='mean')
+plt.title('Average Petal Length per Species')
+plt.xlabel('Species')
+plt.ylabel('Petal Length (cm)')
+plt.tight_layout()
+plt.show()
