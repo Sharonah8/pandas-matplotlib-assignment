@@ -64,3 +64,14 @@ plt.title('Distribution of Sepal Width')
 plt.xlabel('Sepal Width (cm)')
 plt.tight_layout()
 plt.show()
+
+
+# ✅ Scatter Plot
+plt.figure(figsize=(8, 5))
+sns.scatterplot(data=df, x='sepal length (cm)', y='petal length (cm)', hue='species')
+plt.title('Sepal Length vs Petal Length')
+plt.xlabel('Sepal Length (cm)')
+plt.ylabel('Petal Length (cm)')
+plt.legend()
+plt.tight_layout()
+plt.show()
