@@ -55,3 +55,12 @@ plt.xlabel('Species')
 plt.ylabel('Petal Length (cm)')
 plt.tight_layout()
 plt.show()
+
+
+# ✅ Histogram
+plt.figure(figsize=(8, 5))
+sns.histplot(df['sepal width (cm)'], bins=15, kde=True, color='skyblue')
+plt.title('Distribution of Sepal Width')
+plt.xlabel('Sepal Width (cm)')
+plt.tight_layout()
+plt.show()
