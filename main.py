@@ -75,3 +75,12 @@ plt.ylabel('Petal Length (cm)')
 plt.legend()
 plt.tight_layout()
 plt.show()
+
+
+# ✅ Findings and Observations:
+
+# 1. Petal length tends to increase across samples, especially in virginica species.
+# 2. Average petal length is highest for virginica, followed by versicolor, and lowest for setosa.
+# 3. Sepal width has a fairly normal distribution, with a slight left skew.
+# 4. There is a strong positive correlation between sepal length and petal length,
+#    especially noticeable in the virginica and versicolor species.
